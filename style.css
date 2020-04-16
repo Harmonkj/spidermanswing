@@ -1,0 +1,22 @@
+img {
+  position: absolute;
+  height: 200px;
+  left: 600px;
+  top: 25px;
+   animation: arc 5s infinite;
+  animation-duration: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes arc {
+  0%{
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  50%{
+    transform: translate(-50%, -50%) rotate(100deg);
+  }
+  100%{
+    transform: translate(-50%, -50%)
+      rotate(-25deg);
+  }
+}
