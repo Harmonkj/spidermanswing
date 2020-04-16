@@ -2,7 +2,7 @@ img {
   position: absolute;
   height: 500px;
   left: 1100px;
-  top: 25px;
+  top: 75px;
    animation: arc 5s infinite;
   animation-duration: infinite;
   animation-timing-function: ease;
